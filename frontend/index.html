@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Music Player</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+<div class="sidebar">
+
+<h2>Songs</h2>
+
+<button id="addSong">Add Song</button>
+
+<ul id="songList"></ul>
+
+</div>
+
+<div class="player">
+
+<h2 id="title">No Song Playing</h2>
+<p id="artist"></p>
+
+<audio id="audio"></audio>
+
+<div class="time">
+
+<span id="current">0:00</span>
+
+<input type="range" id="progress">
+
+<span id="duration">0:00</span>
+
+</div>
+
+<div class="controls">
+
+<button id="prev">⏮</button>
+<button id="play">▶</button>
+<button id="pause">⏸</button>
+<button id="next">⏭</button>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
